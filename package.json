@@ -1,0 +1,29 @@
+{
+  "name": "scorecosmichexagons",
+  "version": "1.0.0",
+  "description": "A tool to help players score their Cosmic Hexagons tableaus.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avocabavo/ScoreCosmicHexagons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avocabavo/ScoreCosmicHexagons/issues"
+  },
+  "homepage": "https://github.com/avocabavo/ScoreCosmicHexagons#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "method-override": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
